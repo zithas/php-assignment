@@ -1,0 +1,101 @@
+.check-box{
+    width: 100%;
+    height: calc(1.3rem);
+    margin-left: -15px !important;
+}
+.dropdown-status{
+    appearance:auto !important;
+}
+.form-title{
+    margin-left: -15px;
+}
+.timeline-1 {
+border-left: 3px solid gray;
+margin-left: 125px;
+padding: 50px;
+list-style: none;
+text-align: left;
+}   
+.timeline-1 .event {
+position: relative;
+}
+.timeline-1 .event:before,
+.timeline-1 .event:after {
+position: absolute;
+display: block;
+top: 0;
+}
+.timeline-1 .event:before {
+left: -207px;
+content: attr(data-date);
+text-align: right;
+font-weight: 100;
+font-size: 0.9em;
+min-width: 120px;
+}
+.timeline-1 .event:after {
+-webkit-box-shadow: 0 0 0 3px gray;
+box-shadow: 0 0 0 3px gray;
+left: -55.8px;
+background: #fff;
+border-radius: 50%;
+height: 9px;
+width: 9px;
+content: "";
+top: 5px;
+}
+.sub-head{
+    color:#B5B5C3;
+}
+.head{
+    color:#000;
+}
+.timeline.timeline-3 .timeline-items .timeline-item {
+  margin-left: 25px;
+  border-left: 2px solid #EBEDF3;
+  padding: 0 0 20px 50px;
+  position: relative;
+}
+.timeline.timeline-3 .timeline-items .timeline-item .timeline-media {
+  position: absolute;
+  top: 0;
+  left: -26px;
+  border: 2px solid #EBEDF3;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  line-height: 0;
+}
+.timeline.timeline-3 .timeline-items .timeline-item .timeline-media img {
+  max-width: 48px;
+  max-height: 48px;
+  border-radius: 100%;
+}
+.timeline.timeline-3 .timeline-items .timeline-item .timeline-content {
+  border-radius: 0.85rem;
+  position: relative;
+  background-color: #F3F6F9;
+  padding: 0.75rem 1.5rem;
+}
+.timeline.timeline-3 .timeline-items .timeline-item .timeline-content::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  top: 10px;
+  left: -25px;
+  border-right: solid 10px #F3F6F9;
+  border-bottom: solid 17px transparent;
+  border-left: solid 17px transparent;
+  border-top: solid 17px transparent;
+}
+a.text-hover-primary, .text-hover-primary {
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.text-dark-75 {
+  color: #3F4254 !important;
+}
